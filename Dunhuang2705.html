@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>敦煌深度旅行完整分析｜2027 年 5 月</title>
+<style>
+  :root{
+    --ink:#2b2622; --muted:#6f655c; --faint:#a39890; --line:#e7dfd6;
+    --bg:#fbf8f4; --card:#ffffff; --accent:#a8572a; --accent2:#2f6f6a;
+    --h3:#8a4a22; --h2:#c98a5a; --h1:#ecd2bd; --h0:#efebe6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.75;font-size:16px}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px 80px}
+  .hero{position:relative;height:420px;margin:0 -24px 32px;overflow:hidden;border-radius:0 0 18px 18px;background:#c9a27e}
+  .hero img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero .cap{position:absolute;inset:auto 0 0 0;padding:28px 28px 22px;background:linear-gradient(transparent,rgba(30,20,12,.78));color:#fff}
+  .hero h1{color:#fff;margin:0 0 6px}
+  .hero .meta{color:#f1e6dc;margin:0}
+  .hero .credit{position:absolute;top:10px;right:14px;font-size:11px;color:#fff;opacity:.85}
+  .hero .credit a{color:#fff}
+  h1{font-family:"Songti TC","Noto Serif TC",serif;font-size:32px;line-height:1.35;margin:0 0 8px}
+  .meta{color:var(--faint);font-size:13px;margin-bottom:28px}
+  h2{font-family:"Songti TC","Noto Serif TC",serif;font-size:23px;margin:56px 0 16px;padding-top:12px;border-top:1px solid var(--line)}
+  h3{font-size:18px;margin:32px 0 10px}
+  p{margin:0 0 14px}
+  .lead{font-size:17px}
+  ul.plain{padding-left:20px;margin:0 0 16px}
+  ul.plain li{margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;margin:12px 0 18px;font-size:15px;background:var(--card)}
+  th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+  th{background:#f3ece4;font-weight:600;font-size:14px}
+  tr.hl td{background:#fff4ea}
+  .note{color:var(--muted);font-size:14px;background:#f5f0ea;border-left:3px solid var(--h2);padding:10px 14px;margin:12px 0 18px;border-radius:0 6px 6px 0}
+  figure{margin:0}
+  figure img{width:100%;object-fit:cover;display:block;border-radius:10px;background:#e9dfd3}
+  figure figcaption{font-size:11px;color:var(--faint);margin-top:4px;line-height:1.4}
+  figure figcaption a{color:var(--faint)}
+  .r45 img{aspect-ratio:4/5}.r54 img{aspect-ratio:5/4}.r11 img{aspect-ratio:1/1}.r43 img{aspect-ratio:4/3}
+  .feature{display:flex;gap:20px;align-items:flex-start;padding:18px 0}
+  .feature + .feature{border-top:1px solid var(--line)}
+  .feature figure{flex:0 0 40%}
+  .feature .body{flex:1}
+  .feature .title{font-weight:700;font-size:17px;margin-bottom:2px}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:6px}
+  .sub a{color:var(--muted)}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0 18px}
+  .gallery.two{grid-template-columns:repeat(2,1fr)}
+  .stat{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:18px 20px;margin:16px 0}
+  .stat .k{color:var(--muted);font-size:13px;font-weight:600}
+  .stat .v{font-size:28px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;line-height:1.35}
+  .stat p{margin:4px 0 0;font-size:15px}
+  .heat{display:grid;grid-template-columns:110px repeat(12,1fr);gap:3px;margin:12px 0 8px}
+  .heat .m{font-size:11px;color:var(--faint);text-align:center}
+  .heat .n{font-size:12px;font-weight:600;display:flex;align-items:center}
+  .heat .c{height:24px;border-radius:3px}
+  .c3{background:var(--h3)}.c2{background:var(--h2)}.c1{background:var(--h1)}.c0{background:var(--h0)}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);align-items:center;margin-bottom:18px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{width:11px;height:11px;border-radius:2px;display:inline-block}
+  .badge{display:inline-block;font-size:12px;padding:1px 9px;border-radius:999px;background:#e3f0ec;color:var(--accent2);font-weight:600;margin-left:6px;vertical-align:2px}
+  .badge.gray{background:#eee9e3;color:var(--muted)}
+  .plan{display:flex;gap:16px;align-items:flex-start;padding:18px 0}
+  .plan + .plan{border-top:1px solid var(--line)}
+  .plan figure{flex:0 0 130px}
+  .plan .body{flex:1}
+  ol.five{padding-left:22px}
+  ol.five li{margin-bottom:10px}
+  .map{width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:12px;margin:12px 0 4px;display:block}
+  .hotel{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:16px;margin:12px 0;display:flex;gap:16px}
+  .hotel .pics{flex:0 0 36%;display:flex;flex-direction:column;gap:8px}
+  .hotel .body{flex:1}
+  .hotel .title{font-weight:700;font-size:17px}
+  .final{background:#f3ece4;border-radius:12px;padding:20px 22px;margin-top:20px}
+  .sources{font-size:13px;color:var(--muted)}
+  .sources a{color:var(--accent2);word-break:break-all}
+  .foot{color:var(--faint);font-size:12px;margin-top:32px}
+  @media (max-width:640px){
+    .feature,.hotel,.plan{flex-direction:column}
+    .feature figure,.hotel .pics{flex:none;width:100%}
+    .plan figure{width:130px}
+    .gallery{grid-template-columns:1fr 1fr}
+    .heat{grid-template-columns:78px repeat(12,1fr)}
+    h1{font-size:26px}
+    .hero{height:340px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singing%20Sand%20Dunes%20and%20Crescent%20Lake%20(20230918100733).jpg?width=1600" alt="鳴沙山與月牙泉">
+  <div class="credit">照片：<a href="https://commons.wikimedia.org/wiki/File:Singing_Sand_Dunes_and_Crescent_Lake_(20230918100733).jpg">N509FZ / Wikimedia Commons</a></div>
+  <div class="cap">
+    <h1>敦煌深度旅行完整分析：莫高窟、鳴沙山、大漠西線、瓜州東線</h1>
+    <div class="meta">適用行程：2027 年 5 月｜資料整理日期：2026-11-20（台北時間）｜票價與規定以 2026 年公告為準</div>
+  </div>
+</div>
+
+<p class="lead">如果以「文化深度、景觀震撼度、預約難度、旅遊舒適度，以及高端住宿體驗」五個角度評估，敦煌的四個主要區塊各有不同角色，最適合的時段也不一樣。</p>
+
+<p>首先要區分：</p>
+<ul class="plain">
+  <li><b>莫高窟</b>：世界現存規模最大的佛教石窟藝術寶庫，1987 年列入 UNESCO 世界遺產，是整趟旅程的核心。</li>
+  <li><b>鳴沙山・月牙泉與市區</b>：沙丘、泉水、駱駝與夜市，適合清晨與傍晚，也是住宿最集中的區域。</li>
+  <li><b>西線（雅丹、玉門關、陽關）</b>：戈壁與風蝕地貌，漢代絲路關隘遺址，景觀最具戲劇性。</li>
+  <li><b>東線與延伸石窟（榆林窟、西千佛洞）</b>：人潮遠少於莫高窟，適合想看得更深入的旅客。</li>
+</ul>
+
+<!-- 一 -->
+<h2>一、四大區塊總覽</h2>
+<table>
+  <tr><th>區塊</th><th>首選景點</th><th>最佳時段</th><th>建議停留</th></tr>
+  <tr><td>莫高窟</td><td>數字展示中心、第 96 窟（九層樓）</td><td>上午場</td><td>半天（A 類票全程約 3.5–4 小時）</td></tr>
+  <tr><td>鳴沙山・月牙泉</td><td>月牙泉、鳴沙山稜線</td><td>清晨日出、傍晚 17:00 後</td><td>1–2 個早晚（門票 3 天內有效）</td></tr>
+  <tr><td>西線</td><td>雅丹魔鬼城、玉門關、陽關</td><td>午後出發，看雅丹日落</td><td>1 天（往返約 360 km）</td></tr>
+  <tr><td>東線與延伸石窟</td><td>榆林窟、西千佛洞</td><td>上午</td><td>半天–1 天</td></tr>
+</table>
+<div class="note">以上時段是綜合氣溫、光線、人潮與交通的建議，不代表其他時段不能去。莫高窟能否進入，取決於是否預約到門票；洞窟也可能因濕度、天候臨時關閉。</div>
+
+<!-- 二 -->
+<h2>二、各區塊景色與旅行特色</h2>
+
+<div class="feature">
+  <figure class="r45"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Jiucenglou%20of%20Mogao%20Caves.jpg?width=900" alt="莫高窟九層樓"><figcaption>莫高窟第 96 窟九層樓｜<a href="https://commons.wikimedia.org/wiki/File:Jiucenglou_of_Mogao_Caves.jpg">Wikimedia Commons</a></figcaption></figure>
+  <div class="body">
+    <div class="title">莫高窟｜文化深度無可取代</div>
+    <div class="sub">首選：A 類票（8 個實體洞窟＋2 部數位電影）</div>
+    <p>從 4 世紀開鑿延續千年，壁畫與彩塑跨越多個朝代。先看數位電影建立背景，再由講解員帶進洞窟，是最完整的參觀方式。</p>
+  </div>
+</div>
+<div class="feature">
+  <figure class="r45"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mingsha%20Mountain%20and%20Crescent%20Moon%20Spring%20(54532735143).jpg?width=900" alt="鳴沙山與月牙泉"><figcaption>鳴沙山與月牙泉｜<a href="https://commons.wikimedia.org/wiki/File:Mingsha_Mountain_and_Crescent_Moon_Spring_(54532735143).jpg">Wikimedia Commons</a></figcaption></figure>
+  <div class="body">
+    <div class="title">鳴沙山・月牙泉｜沙漠與綠洲同框</div>
+    <div class="sub">首選：清晨日出、傍晚爬稜線</div>
+    <p>新月形泉水被沙丘環抱，可騎駱駝、滑沙。門票 3 天內可重複進場，適合分早晚兩次去。</p>
+  </div>
+</div>
+<div class="feature">
+  <figure class="r45"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Yardangs%20near%20Dunhuang%202.jpg?width=900" alt="雅丹地貌"><figcaption>敦煌雅丹國家地質公園｜<a href="https://commons.wikimedia.org/wiki/File:Yardangs_near_Dunhuang_2.jpg">Dcpeets / Wikimedia Commons</a></figcaption></figure>
+  <div class="body">
+    <div class="title">西線｜戈壁地景最有戲劇性</div>
+    <div class="sub">首選：雅丹魔鬼城、玉門關、陽關</div>
+    <p>風蝕土丘在日落時呈現強烈光影，是攝影高光。玉門關、陽關則偏重感受漢代邊關的歷史氛圍。</p>
+  </div>
+</div>
+<div class="feature">
+  <figure class="r45"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Yulin%20Caves%20Jiuquan%20Gansu%20China%20%E9%85%92%E6%B3%89%20%E6%A5%A1%E6%9E%97%E7%AA%9F%20-%20panoramio%20(1).jpg?width=900" alt="榆林窟"><figcaption>瓜州榆林窟｜<a href="https://commons.wikimedia.org/wiki/Category:Yulin_Caves">Wikimedia Commons</a></figcaption></figure>
+  <div class="body">
+    <div class="title">東線與延伸石窟｜避開人潮看壁畫</div>
+    <div class="sub">首選：榆林窟（瓜州）、西千佛洞</div>
+    <p>榆林窟的壁畫保存品質受到高度評價，遊客量遠少於莫高窟。適合已看過莫高窟、想再深入的旅客。</p>
+  </div>
+</div>
+
+<!-- 三 -->
+<h2>三、莫高窟：整趟旅程的核心</h2>
+<div class="gallery">
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Caves%20Exterior%20And%20Chambers.jpeg?width=700" alt="莫高窟崖面"><figcaption>崖面窟區｜<a href="https://commons.wikimedia.org/wiki/File:Mogao_Caves_Exterior_And_Chambers.jpeg">eviltomthai / Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/GateOfMogaoCaves.jpg?width=700" alt="莫高窟入口"><figcaption>莫高窟入口｜<a href="https://commons.wikimedia.org/wiki/File:GateOfMogaoCaves.jpg">Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Offering%20Bodhisattva%20from%20Cave%20401%2C%20Mogao%20Caves%2C%20Dunhuang.jpg?width=700" alt="第 401 窟供養菩薩"><figcaption>第 401 窟供養菩薩｜<a href="https://commons.wikimedia.org/wiki/File:Offering_Bodhisattva_from_Cave_401,_Mogao_Caves,_Dunhuang.jpg">Wikimedia Commons</a></figcaption></figure>
+</div>
+
+<h3>票種比較（2026 年旺季）</h3>
+<table>
+  <tr><th>票種</th><th>旺季價格</th><th>內容</th><th>每日限額</th></tr>
+  <tr><td>A 類正常票</td><td>238 元/人</td><td>2 部數位電影＋8 個實體洞窟＋專業講解＋往返接駁車</td><td>6,000 張</td></tr>
+  <tr><td>B 類應急票</td><td>100 元/人</td><td>4 個實體洞窟，無數位電影</td><td>12,000 張</td></tr>
+</table>
+<p>旺季為每年 4 月 1 日至 11 月 30 日，淡季 A 類票約 140 元/人。2027 年 5 月屬於旺季。</p>
+
+<div class="stat">
+  <div class="k">預約規則（2026 年）</div>
+  <div class="v">30 天前・07:00</div>
+  <p>只能透過「莫高窟參觀預約網」官網、微信小程序或同名公眾號實名預約，可預約次日至 30 天內的門票，每天 07:00 開放。窟區不設售票處，不要相信「代搶票」或「內部票」。</p>
+</div>
+
+<p><b>為什麼要限流：</b>洞窟壁畫對溫度、濕度與二氧化碳非常敏感。敦煌研究院以濕度 62% 為臨界值，超過時壁畫中的鹽分會被活化、造成病害，因此遇到降雨或濕度偏高時，個別洞窟可能臨時關閉。</p>
+<div class="note">台灣旅客需以台胞證實名預約。我無法確認預約系統是否完整支援台胞證登記，建議出發前先在官方渠道實測或洽詢旅行社。</div>
+
+<!-- 四 -->
+<h2>四、鳴沙山・月牙泉與市區</h2>
+<div class="gallery two">
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/China-Crescent-Lake.jpg?width=900" alt="月牙泉"><figcaption>月牙泉｜<a href="https://commons.wikimedia.org/wiki/File:China-Crescent-Lake.jpg">Alex Kwok / Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/20080717%20Dunhuang%20Museum.jpg?width=900" alt="敦煌博物館"><figcaption>敦煌博物館｜<a href="https://commons.wikimedia.org/wiki/Category:Dunhuang_Museum">Wikimedia Commons</a></figcaption></figure>
+</div>
+<table>
+  <tr><th>景點</th><th>特色</th><th>建議</th></tr>
+  <tr><td>鳴沙山月牙泉</td><td>沙丘、泉水、駱駝、滑沙</td><td>門票 110 元、3 天內有效；2026 年開放時間 06:00–19:30</td></tr>
+  <tr><td>敦煌博物館</td><td>出土文物與絲路歷史</td><td>免費，適合中午避開日曬</td></tr>
+  <tr><td>《又見敦煌》情境劇</td><td>沉浸式演出</td><td>晚上安排，需另購票</td></tr>
+  <tr><td>沙州夜市</td><td>驢肉黃麵、杏皮茶等在地小吃</td><td>晚餐後散步</td></tr>
+</table>
+<p>2026 年起鳴沙山推出「星空演唱」活動，6 月 15 日開始每日演出（極端天氣除外）。2027 年是否延續、5 月是否已開演，目前無法確認。</p>
+
+<!-- 五 -->
+<h2>五、西線：戈壁與漢代邊關</h2>
+<div class="gallery">
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20Yardang%2C%20near%20Dunhuang.jpg?width=700" alt="雅丹地貌"><figcaption>雅丹地貌｜<a href="https://commons.wikimedia.org/wiki/File:Lion_Yardang,_near_Dunhuang.jpg">Dcpeets / Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Dunhuang.yumenguan.jpg?width=700" alt="玉門關"><figcaption>玉門關｜<a href="https://commons.wikimedia.org/wiki/Category:Yumenguan">Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Yangguan%20Beacon%20Tower%20(20230917162331).jpg?width=700" alt="陽關烽燧"><figcaption>陽關烽燧｜<a href="https://commons.wikimedia.org/wiki/Category:Watchtower_(Dunhuang)">Wikimedia Commons</a></figcaption></figure>
+</div>
+<table>
+  <tr><th>地點</th><th>特色</th><th>注意事項</th></tr>
+  <tr><td>雅丹魔鬼城</td><td>風蝕地貌，最後一站「西海艦隊」日落最受推崇</td><td>門票 120 元含觀光車，必須搭車；注意末班車時間</td></tr>
+  <tr><td>玉門關</td><td>漢代關隘遺址（小方盤城）</td><td>票價以現場公告為準</td></tr>
+  <tr><td>陽關</td><td>「西出陽關」的歷史場景</td><td>票價以現場公告為準</td></tr>
+</table>
+<p>西線往返約 360 km，私人包車一天約 400–500 元（2026 年行情）。建議中午後出發，依序走陽關、玉門關，最後在雅丹看日落。</p>
+
+<!-- 六 -->
+<h2>六、東線與延伸石窟：榆林窟、西千佛洞</h2>
+<div class="gallery two">
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Eight%20Bodhisattvas%20Mandala%20from%20Cave%2025%2C%20Yulin%20Caves%20(Restored).jpg?width=900" alt="榆林窟第 25 窟八大菩薩曼荼羅"><figcaption>榆林窟第 25 窟八大菩薩曼荼羅（復原圖）｜<a href="https://commons.wikimedia.org/wiki/File:Eight_Bodhisattvas_Mandala_from_Cave_25,_Yulin_Caves_(Restored).jpg">Wikimedia Commons</a></figcaption></figure>
+  <figure class="r54"><img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Xiqian%20Caves%20Dunhuang%20Jiuquan%20Gansu%20China%20%E6%95%A6%E7%85%8C%20%E8%A5%BF%E5%8D%83%E4%BD%9B%E6%B4%9E%20-%20panoramio.jpg?width=900" alt="西千佛洞"><figcaption>西千佛洞｜<a href="https://commons.wikimedia.org/wiki/Category:Western_Thousand_Buddha_Caves">Wikimedia Commons</a></figcaption></figure>
+</div>
+<table>
+  <tr><th>地點</th><th>優勢</th><th>注意事項</th></tr>
+  <tr><td>榆林窟（瓜州）</td><td>壁畫保存品質高，第 25 窟常被推薦，人潮少</td><td>普通窟 40 元，特窟另購約 150–200 元/窟；每日限流 2,000 人</td></tr>
+  <tr><td>西千佛洞</td><td>規模較小，可搭配黨河峽谷</td><td>適合放在輕鬆的一天</td></tr>
+</table>
+<p>如果這趟是以壁畫藝術為主，我會把榆林窟列為必去；如果只是初次認識敦煌，莫高窟加上鳴沙山與西線已經很完整。</p>
+
+<!-- 七 -->
+<h2>七、最佳月份：如何選擇？</h2>
+<p class="sub">月份適合度示意：顏色越深越值得優先安排。依氣溫、人潮、預約難度綜合判斷，屬定性評估，不是統計數據。</p>
+<div class="heat">
+  <div></div>
+  <div class="m">1</div><div class="m">2</div><div class="m">3</div><div class="m">4</div><div class="m">5</div><div class="m">6</div><div class="m">7</div><div class="m">8</div><div class="m">9</div><div class="m">10</div><div class="m">11</div><div class="m">12</div>
+  <div class="n">莫高窟</div>
+  <div class="c c2"></div><div class="c c2"></div><div class="c c2"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div><div class="c c1"></div><div class="c c3"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div>
+  <div class="n">鳴沙山戶外</div>
+  <div class="c c1"></div><div class="c c1"></div><div class="c c2"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div><div class="c c1"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div>
+  <div class="n">西線戈壁</div>
+  <div class="c c0"></div><div class="c c1"></div><div class="c c2"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div><div class="c c1"></div><div class="c c3"></div><div class="c c3"></div><div class="c c1"></div><div class="c c0"></div>
+  <div class="n">整體舒適度</div>
+  <div class="c c1"></div><div class="c c1"></div><div class="c c2"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div><div class="c c1"></div><div class="c c3"></div><div class="c c3"></div><div class="c c2"></div><div class="c c1"></div>
+</div>
+<div class="legend">
+  <span><i class="c3"></i>優先推薦</span><span><i class="c2"></i>適合</span><span><i class="c1"></i>季節邊緣</span><span><i class="c0"></i>不推薦</span>
+</div>
+
+<h3>如果以月份決定</h3>
+<table>
+  <tr><th>出發時間</th><th>特點</th></tr>
+  <tr><td>12–2 月</td><td>淡季，莫高窟票好訂、價格較低；天氣寒冷，戶外行程縮短</td></tr>
+  <tr><td>3 月</td><td>淡季尾聲，氣溫回升中</td></tr>
+  <tr><td>4 月</td><td>旺季開始，人潮尚未達高峰</td></tr>
+  <tr class="hl"><td><b>5 月</b></td><td><b>多篇攻略推薦的最佳時段之一。避開五一連假（5/1–5/5）後，人潮與天氣都較理想</b></td></tr>
+  <tr><td>6 月</td><td>開始變熱，正午需避開戶外</td></tr>
+  <tr><td>7–8 月</td><td>高溫（2025 年 7 月曾達 42°C），暑假人潮最多，莫高窟最難預約</td></tr>
+  <tr><td>9–10 月</td><td>與 5 月並列最舒適；10 月初國慶連假人多</td></tr>
+  <tr><td>11 月</td><td>仍屬旺季票價，但遊客明顯減少</td></tr>
+</table>
+<div class="note">5 月敦煌白天溫暖、早晚偏涼，晝夜溫差大，也可能遇到風沙。我沒有查到可靠的 5 月平均氣溫數據，具體溫度請出發前一週查詢天氣預報。</div>
+
+<!-- 八 -->
+<h2>八、敦煌主要景點地圖</h2>
+<iframe class="map" loading="lazy" title="敦煌區域地圖" src="https://www.openstreetmap.org/export/embed.html?bbox=92.9%2C39.65%2C96.2%2C40.75&amp;layer=mapnik&amp;marker=40.14%2C94.66"></iframe>
+<div class="sub">地圖：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> 貢獻者｜標記為敦煌市區</div>
+<table>
+  <tr><th>分組</th><th>景點</th></tr>
+  <tr><td>市區周邊</td><td>敦煌市區、沙州夜市、敦煌博物館、鳴沙山月牙泉（市區南方）、莫高窟（市區東南約 25 km）</td></tr>
+  <tr><td>西線</td><td>西千佛洞、陽關、玉門關、雅丹魔鬼城（地圖最西側）</td></tr>
+  <tr><td>東線</td><td>榆林窟（瓜州縣，地圖東側）</td></tr>
+</table>
+
+<!-- 九 -->
+<h2>九、哪裡最值得去？綜合評比</h2>
+<p class="sub">以下是依旅行目的所做的定性評估，不是科學排名。</p>
+<table>
+  <tr><th>目的</th><th>第一選擇</th><th>第二選擇</th></tr>
+  <tr><td>壁畫藝術深度</td><td>莫高窟 A 類票</td><td>榆林窟特窟</td></tr>
+  <tr><td>避開人潮</td><td>榆林窟</td><td>西千佛洞</td></tr>
+  <tr><td>自然景觀震撼度</td><td>雅丹魔鬼城日落</td><td>鳴沙山日出</td></tr>
+  <tr><td>攝影構圖</td><td>雅丹「西海艦隊」</td><td>鳴沙山稜線</td></tr>
+  <tr><td>長輩、親子友善</td><td>鳴沙山＋市區</td><td>敦煌博物館</td></tr>
+  <tr><td>星空體驗</td><td>沙漠營地</td><td>鳴沙山周邊住宿</td></tr>
+  <tr><td>頂奢住宿體驗</td><td>Jangala Dunhuang（SLH）</td><td>東驛敦煌酒店</td></tr>
+</table>
+
+<!-- 十 -->
+<h2>十、如果只選一次，我會怎麼安排？</h2>
+
+<div class="plan">
+  <figure class="r11"><img loading="lazy" src="https://www.hilton.com/im/en/DNHJDLX/21308490/dnhjdlx-148674846-hotel-main-courtyard-4971x3728.jpg?impolicy=resizecrop&amp;cw=1200&amp;ch=900&amp;gravity=Center" alt="Jangala Dunhuang 中庭"><figcaption>Jangala Dunhuang｜Hilton 官方</figcaption></figure>
+  <div class="body">
+    <div><b>首選：5 天 4 夜「文化＋頂奢精品酒店」</b><span class="badge">綜合推薦</span></div>
+    <div class="sub">2027 年 5 月中下旬｜Jangala Dunhuang 3 晚＋沙漠營地 1 晚</div>
+    <p>Day 1 抵達、傍晚鳴沙山日落｜Day 2 上午莫高窟、下午博物館、晚上《又見敦煌》｜Day 3 西線看雅丹日落，入住沙漠營地看星空｜Day 4 榆林窟｜Day 5 清晨月牙泉後返程。</p>
+  </div>
+</div>
+<div class="plan">
+  <figure class="r11"><img loading="lazy" src="https://subsites.chinadaily.com.cn/gansu/att/20250703/1751535539366075311.jpg" alt="敢曼萬達文華入口"><figcaption>敢曼萬達文華｜China Daily</figcaption></figure>
+  <div class="body">
+    <div><b>第二選擇：4 天 3 夜精華版</b></div>
+    <div class="sub">2027 年 5 月中下旬｜敦煌敢曼萬達文華 3 晚</div>
+    <p>以市區為據點，交通最省力。莫高窟、鳴沙山、西線各一個主軸，略過榆林窟。適合時間有限或與長輩同行。</p>
+  </div>
+</div>
+<div class="plan">
+  <figure class="r11"><img loading="lazy" src="https://competition.adesignaward.com/award-winner-design-1200.php?ID=129979" alt="東驛敦煌酒店"><figcaption>東驛敦煌｜A' Design Award</figcaption></figure>
+  <div class="body">
+    <div><b>第三選擇：6 天 5 夜深度版</b></div>
+    <div class="sub">2027 年 5 月中下旬｜Jangala Dunhuang 2 晚＋東驛敦煌 2 晚＋沙漠營地 1 晚</div>
+    <p>在首選方案外加入西千佛洞、黨河峽谷與一天留白，並體驗兩家不同風格的精品酒店。也可以安排兩次莫高窟時段（A 類＋特窟），適合藝術愛好者。</p>
+  </div>
+</div>
+
+<!-- 十一 -->
+<h2>十一、規劃敦煌旅行時，最重要的五件事</h2>
+<ol class="five">
+  <li><b>莫高窟 A 類票是最大變數。</b>以 2026 年規則推算，5 月中旬出發要在 4 月中旬、出發日前 30 天的 07:00 準時預約。</li>
+  <li><b>避開五一連假。</b>5/1–5/5 人潮最多，門票與住宿都最緊。</li>
+  <li><b>早晚戶外、正午室內。</b>鳴沙山與西線放在清晨或傍晚，中午安排洞窟、博物館或飯店休息。</li>
+  <li><b>準備防風沙、防曬與保暖。</b>墨鏡、口罩或圍巾、薄外套都要帶，洞窟內光線暗、禁用閃光燈。</li>
+  <li><b>先確認證件與實名流程。</b>台胞證能否順利用於各景點預約，建議出發前逐一確認。</li>
+</ol>
+
+<!-- 十二 -->
+<h2>十二、頂奢住宿推薦：媲美 Rosewood 等級的選擇</h2>
+
+<div class="stat">
+  <div class="k">先說結論</div>
+  <div class="v">最接近 Rosewood：Jangala Dunhuang（SLH 成員）</div>
+  <p>Aman、Rosewood、Four Seasons 等大型奢華品牌目前都沒有進駐敦煌，萬豪「敦煌麗思卡爾頓隱世」預計 2029 年初才開幕。2027 年 5 月可訂的選擇中，以 Small Luxury Hotels of the World（SLH）成員 Jangala Dunhuang 最接近 Rosewood 的定位：重視在地感（A Sense of Place）、精品規模、設計導向、私密性高。</p>
+</div>
+
+<h3>A. 最接近 Rosewood 體驗（2027 年可訂）</h3>
+
+<div class="hotel">
+  <div class="pics">
+    <figure class="r43"><img loading="lazy" src="https://www.hilton.com/im/en/DNHJDLX/21308490/dnhjdlx-148674846-hotel-main-courtyard-4971x3728.jpg?impolicy=resizecrop&amp;cw=1200&amp;ch=900&amp;gravity=Center" alt="Jangala Dunhuang 中庭"></figure>
+    <figure class="r43"><img loading="lazy" src="https://www.hilton.com/im/en/DNHJDLX/20818350/148673322-courtyard-suite-bedroom-4971x3728.jpg?impolicy=resizecrop&amp;cw=1200&amp;ch=900&amp;gravity=Center" alt="Jangala Dunhuang 庭院套房"><figcaption>照片：Hilton 官方網站（SLH 合作頁）</figcaption></figure>
+  </div>
+  <div class="body">
+    <div class="title">1. Jangala Dunhuang（敦煌碧玥酒店）<span class="badge">首選</span></div>
+    <div class="sub">七里鎮，鄰近鳴沙山月牙泉｜Small Luxury Hotels of the World 成員｜可透過 Hilton 官網預訂</div>
+    <p>名稱取自梵語「荒野中的綠洲」，占地約 10,000 m²，有自家葡萄園與有機菜園。公共空間「Living Room」兼作精品店與藝術展覽空間，戶外有全年演出的水景劇場，另有 Silk &amp; Spice 餐廳、屋頂 Mirage Bar 和冥想空間。房型包含 Oasis View Room、Courtyard Suite、Jangala Two-Bedroom Suite 等。</p>
+    <p class="sub">注意：官網標示接待 13 歲以上兒童。房價官網未直接列出，需輸入日期查詢；開幕年份我沒有查到確切資料。</p>
+  </div>
+</div>
+
+<div class="hotel">
+  <div class="pics">
+    <figure class="r43"><img loading="lazy" src="https://competition.adesignaward.com/award-winner-design-1200.php?ID=129979" alt="東驛敦煌酒店"></figure>
+    <figure class="r43"><img loading="lazy" src="https://competition.adesignaward.com/designersorg-image.php?ID=129979&amp;N=1" alt="東驛敦煌酒店"><figcaption>照片：YM Studio／A' Design Award</figcaption></figure>
+  </div>
+  <div class="body">
+    <div class="title">2. 東驛敦煌酒店（Dongyi Dunhuang）<span class="badge gray">設計精品</span></div>
+    <div class="sub">月牙泉鎮｜2021 年開幕｜2022 年 A' Design Award 建築類銀獎｜入選「2026 中國 50 設計感酒店」</div>
+    <p>以文人「隱」的概念設計，東方美學結合當代風格。提供管家服務，並有點燈儀式、壁畫體驗課等在地文化活動。攜程評分 4.8。</p>
+    <p class="sub">不確定處：部分住客認為性價比偏低；服務能否完全達到國際頂奢標準，我無法確認。</p>
+  </div>
+</div>
+
+<div class="hotel">
+  <div class="pics">
+    <figure class="r43"><img loading="lazy" src="https://subsites.chinadaily.com.cn/gansu/att/20250703/1751535539366075311.jpg" alt="敢曼萬達文華入口"></figure>
+    <figure class="r43"><img loading="lazy" src="https://subsites.chinadaily.com.cn/gansu/att/20250703/1751535825315013553.jpg" alt="敢曼萬達文華"><figcaption>照片：China Daily（酒店提供）</figcaption></figure>
+  </div>
+  <div class="body">
+    <div class="title">3. 敦煌敢曼萬達文華酒店（Wanda Vista Ganman）<span class="badge gray">城市型奢華</span></div>
+    <div class="sub">距鳴沙山月牙泉東門約 900 m｜2025 年 6 月 30 日開幕｜萬達旗下最高等級品牌</div>
+    <p>設計靈感來自敦煌壁畫，硬體最新，到博物館、沙州夜市和車站都方便。Trip.com 評分 9.5/10，房價約 US$584 起（2026 年）。季節性戶外泳池只在 6–8 月開放，5 月入住用不到。</p>
+  </div>
+</div>
+
+<h3>B. 補充選項</h3>
+<table>
+  <tr><th>飯店</th><th>特色</th><th>注意事項</th></tr>
+  <tr><td>Dunhuang Desert Galaxy Celestial Palace</td><td>沙漠野奢營地，適合 1 晚看星空，含早餐</td><td>2026 年約 US$118–138/晚；體驗型住宿，不能與頂奢相比</td></tr>
+  <tr><td>敦煌山莊（Silk Road Dunhuang Hotel）</td><td>老字號，鳴沙山景觀，Tripadvisor 敦煌排名第 1</td><td>星級標示不一致，不是頂奢定位</td></tr>
+  <tr><td>敦煌國際酒店</td><td>漢唐風格園林式酒店，距機場約 6 km</td><td>偏傳統大型飯店</td></tr>
+</table>
+
+<h3>C. 未來指標</h3>
+<div class="hotel">
+  <div class="pics">
+    <figure class="r43"><img loading="lazy" src="https://mma.prnasia.com/media2/2850962/468b3d9d09f96ac8827ae8753be6df98.jpg?p=medium600" alt="敦煌麗思卡爾頓隱世選址"><figcaption>選址景觀｜美通社（萬豪國際發布）</figcaption></figure>
+  </div>
+  <div class="body">
+    <div class="title">敦煌麗思卡爾頓隱世（Ritz-Carlton Reserve）<span class="badge gray">預計 2029 年初</span></div>
+    <div class="sub">鳴沙山・月牙泉景區東側｜距莫高窟約 15 km</div>
+    <p>規劃 69 棟別墅，每棟都有私人庭院並面向鳴沙山，設 3 間餐廳、室內泳池、水療中心與文化藝術中心。這是大中華區第 2 家隱世系列，也是敦煌頂奢市場的指標案。</p>
+  </div>
+</div>
+<table>
+  <tr><th>其他觀察名單</th><th>內容</th><th>狀態</th></tr>
+  <tr><td>Tripolers Oasis（Holloway Li 室內設計）</td><td>位於鳴沙山邊緣的葡萄園，規劃 80 間客房，含 15 棟私人別墅與水療中心，風格取材侘寂（wabi-sabi）</td><td>原訂 2026 年開幕；我查不到已開幕的消息，2027 年 5 月能否入住無法確認</td></tr>
+</table>
+
+<div class="note"><b>住宿組合建議：</b>Jangala Dunhuang 住 3 晚，加上沙漠營地 1 晚。再搭配私人包車與專屬中文導覽，讓整體體驗更接近 Rosewood 等級的服務。決定莫高窟日期後就鎖房，5 月中旬以後房價通常會上漲。</div>
+
+<!-- 最後 -->
+<h2>最後的建議</h2>
+<div class="final">
+  <p>如果是 2027 年 5 月第一次去敦煌，我會把日期鎖定在 <b>5 月中下旬</b>，避開五一連假，以 <b>5 天 4 夜</b>為基準，住宿以 Jangala Dunhuang 為主、搭配一晚沙漠營地。</p>
+  <p>敦煌行程的成敗不在住哪裡，而在<b>能不能預約到莫高窟 A 類票</b>，以及<b>能不能把戶外活動放在早晚</b>。這兩點確定後，其他都可以彈性調整。</p>
+  <p style="margin:0">我想再確認一個方向：這趟旅行是以「壁畫與歷史深度」為第一優先，還是希望「文化＋頂奢住宿＋沙漠體驗」兼具？這會影響是否加入榆林窟，以及住宿夜數的分配。</p>
+</div>
+
+<h2>資料來源</h2>
+<div class="sources">
+  <ol>
+    <li><a href="https://travel.sina.cn/2026-06-26/detail-inietfxy1989058.d.html">2026 青甘大環線莫高窟 A 類票怎麼搶？（新浪旅遊）</a></li>
+    <li><a href="https://travel.sina.cn/2026-07-09/detail-inihfihx8562880.d.html">莫高窟暑期客流與限流機制（新浪旅遊）</a></li>
+    <li><a href="https://www.sina.cn/news/article/niknrqy9967554.html">莫高窟旺季門票預約全攻略（新浪）</a></li>
+    <li><a href="https://c.m.163.com/news/a/KTHSCKK50556BNOH.html">2026 西北旅遊新規（網易）</a></li>
+    <li><a href="https://www.sina.cn/news/article/nimfmyp5277378.html">敦煌經典 3 日遊路線＋門票（新浪）</a></li>
+    <li><a href="https://www.sina.cn/news/article/niiqzkw4816885.html">敦煌 5 天行程攻略（新浪）</a></li>
+    <li><a href="https://www.sina.cn/news/article/nikzuyf6183243.html">敦煌夏季氣溫與行程（新浪）</a></li>
+    <li><a href="https://www.hilton.com/en/hotels/dnhjdlx-jangala-dunhuang/">Jangala Dunhuang（Hilton／SLH 官方頁）</a></li>
+    <li><a href="https://www.homejournal.com/en/article/Peek-Inside-a-Luxurious-Desert-Sanctuary-Near-Silk-Road">Peek Inside a Luxurious Desert Sanctuary Near Silk Road（Home Journal）</a></li>
+    <li><a href="https://designradiant.com/129979">Dongyi Dunhuang: A Hidden Gem in the Desert（Design Radiant）</a></li>
+    <li><a href="https://m.ctrip.com/html5/hotel/hoteldetail/79565560.html">東驛敦煌酒店（攜程）</a></li>
+    <li><a href="https://www.trip.com/hotels/dunhuang-hotel-detail-129458365/wanda-vista-ganman-dunhuang/">Wanda Vista Ganman Dunhuang（Trip.com）</a></li>
+    <li><a href="https://subsites.chinadaily.com.cn/gansu/2025-07/03/c_1105371.htm">Wanda Vista elevates Dunhuang hospitality scene（China Daily）</a></li>
+    <li><a href="https://www.orbitz.com/Jiuquan-Hotels.d6140429.Travel-Guide-Hotels">Dunhuang Desert Galaxy Celestial Palace（Orbitz）</a></li>
+    <li><a href="https://www.tripadvisor.com/Hotel_Review-g303695-d455434-Reviews-Silk_Road_Dunhuang_Hotel-Dunhuang_Gansu.html">Silk Road Dunhuang Hotel（Tripadvisor）</a></li>
+    <li><a href="https://www.chinabound.cn/s/202601/19/WS696e0604498e368550339f9b/dunhuang-international-hotel.html">Dunhuang International Hotel（China Bound）</a></li>
+    <li><a href="https://www.gtdaily.net/archives/22907">敦煌麗思卡爾頓隱世預計於 2029 年初啟幕（全球旅報）</a></li>
+    <li><a href="https://cj.sina.com.cn/articles/view/1644983660/620c756c02001q9xw">萬豪國際簽約打造敦煌麗思卡爾頓隱世（新浪財經）</a></li>
+    <li><a href="https://hospitalitydesign.com/news/tripolers-oasis-hotel-dunhuang-china/170730">Holloway Li to Design Tripolers Oasis Hotel in Dunhuang（Hospitality Design）</a></li>
+    <li><a href="https://www.cladglobal.com/CLADnews/architecture-design/Tripolers-adventure-travel-enters-the-luxury-spa-market-with-string-of-Silk-Road-hotels/355581">Tripolers enters the luxury spa market（CLAD）</a></li>
+  </ol>
+  <p>景點照片來自 Wikimedia Commons（各圖說連結至原始檔案頁，含作者與授權資訊）；飯店照片來自 Hilton 官網、China Daily、A' Design Award 與美通社。照片版權屬原作者，本檔僅供個人行程規劃參考。</p>
+</div>
+
+<div class="foot">本文票價、開放時間與飯店資訊以 2026 年公開資料整理，2027 年可能調整，出發前請以官方公告為準。</div>
+
+</div>
+</body>
+</html>
